@@ -1,0 +1,10 @@
+account_id = "CHANGE"
+zone_id = "CHANGE"
+name = "now-playing"
+type = "webpack"
+workers_dev = true
+route = "https://nowplaying.skins.cl/*"
+site = { bucket = "./public" }
+kv_namespaces = [
+         { binding = "nowplaying", preview_id = "CHANGEWITHWRANGLER", id = "CHANGEWITHWRANGLER" }
+]
