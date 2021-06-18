@@ -21,7 +21,6 @@ Live demo: https://nowplaying.skins.cl/
 ```bash
 cd frontend
 yarn && yarn nuxt generate
-pip install foobar
 ```
 
 2. Configure wrangler.toml with your cloudflare account data (follow the example file wrangler.toml.example) and then run
@@ -34,6 +33,10 @@ wrangler publish
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+If you are bored:
+- Implement mobile layout
+- Propose some cool feature to add
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

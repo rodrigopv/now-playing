@@ -5,7 +5,7 @@
     </h1>
     <div class="h-72 w-72 relative">
       <div class=" h-72 w-72 z-0 relative">
-        <img v-if="albumImage" class="w-full object-contain" :src="albumImage">
+        <img v-if="albumImage" class="w-full h-full object-contain" :src="albumImage">
       </div>
       <video-player
         ref="videoPlayer"
